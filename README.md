@@ -8,8 +8,12 @@ A keyboard launcher for macOS 26 and later on Apple silicon.
 [prismformac.com](https://prismformac.com)
 
 ```sh
+brew trust --cask natsustan/tap/prism-app
 brew install --cask natsustan/tap/prism-app
 ```
+
+Homebrew loads casks from taps outside the official repositories only after
+you trust them; the first line trusts this one cask, not the whole tap.
 
 Prism updates itself through Sparkle, so the cask is marked
 `auto_updates true` and `brew upgrade` leaves it alone. To force a
