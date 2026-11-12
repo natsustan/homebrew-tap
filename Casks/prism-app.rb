@@ -1,6 +1,6 @@
 cask "prism-app" do
-  version "0.5.0"
-  sha256 "7fbb3ccc8eb6c73fc6d8622fe572b6f4865bbf1c6dcda371df822d6fb07816ba"
+  version "0.6.0"
+  sha256 "6d19b19398a6c49d5810945d71309b2c2801bb1b43acec4ebe95f09b5fa45150"
 
   url "https://download.prismformac.com/Prism-#{version}.dmg"
   name "Prism"
