@@ -1,6 +1,6 @@
 cask "prism-app" do
-  version "0.9.1"
-  sha256 "5bec46a436cbb0763a8e99ddc79af3c7362a86f9f7467f33b4416c82c4ac1af8"
+  version "0.10.0"
+  sha256 "8525ec154e8575cb0c7273968b48c50bd7a2e91636c4f302eff05fdeb46ebde9"
 
   url "https://download.prismformac.com/Prism-#{version}.dmg"
   name "Prism"
@@ -18,14 +18,14 @@ cask "prism-app" do
 
   app "Prism.app"
 
-  uninstall quit: "com.cosmostudio.prism"
+  uninstall quit: "com.cosmoss.prism"
 
   zap trash: [
     "~/Library/Application Support/Prism",
     "~/Library/Caches/Prism",
-    "~/Library/Caches/com.cosmostudio.prism",
-    "~/Library/HTTPStorages/com.cosmostudio.prism",
-    "~/Library/Preferences/com.cosmostudio.prism.plist",
-    "~/Library/Saved Application State/com.cosmostudio.prism.savedState",
+    "~/Library/Caches/com.cosmoss.prism",
+    "~/Library/HTTPStorages/com.cosmoss.prism",
+    "~/Library/Preferences/com.cosmoss.prism.plist",
+    "~/Library/Saved Application State/com.cosmoss.prism.savedState",
   ]
 end
