@@ -1,6 +1,6 @@
-# natsustan/homebrew-tap
+# prismformac/homebrew-tap
 
-Homebrew casks for apps by natsustan.
+Homebrew casks for apps by Cosmoss Studio.
 
 ## Prism
 
@@ -8,12 +8,15 @@ A keyboard launcher for macOS 26 and later on Apple silicon.
 [prismformac.com](https://prismformac.com)
 
 ```sh
-brew trust --cask natsustan/tap/prism-app
-brew install --cask natsustan/tap/prism-app
+brew trust --cask prismformac/tap/prism-app
+brew install --cask prismformac/tap/prism-app
 ```
 
 Homebrew loads casks from taps outside the official repositories only after
 you trust them; the first line trusts this one cask, not the whole tap.
+
+This tap used to be `natsustan/tap`. Installs from there keep updating,
+since GitHub redirects the old address.
 
 Prism updates itself through Sparkle, so the cask is marked
 `auto_updates true` and `brew upgrade` leaves it alone. To force a
